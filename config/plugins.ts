@@ -3,12 +3,12 @@ module.exports = ({ env }) => ({
     config: {
       provider: 'aws-s3',
       providerOptions: {
-        accessKeyId: 'AKIAXAJA4LBNXFIHLVHB',
-        secretAccessKey: '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',
-        region: 'eu-west-3',
+        accessKeyId: env('AWS_ACCESS_KEY_ID'),
+        secretAccessKey: env('AWS_ACCESS_SECRET'),
+        region: env('AWS_REGION'),
         params: {
-          Bucket: 'capoeira-songs',
-          Folder: 'strapi-assets',
+          Bucket: env('AWS_BUCKET'),
+          Folder: env('AWS_FOLDER'),
         },
       },
       actionOptions: {
