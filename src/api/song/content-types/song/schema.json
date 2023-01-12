@@ -4,7 +4,8 @@
   "info": {
     "singularName": "song",
     "pluralName": "songs",
-    "displayName": "Song"
+    "displayName": "Song",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,31 +19,40 @@
       "type": "string"
     },
     "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "source": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "lyrics_link": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "files"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "translation": {
       "type": "richtext"
     },
     "history": {
       "type": "richtext"
+    },
+    "difficulty": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
     }
   }
 }
