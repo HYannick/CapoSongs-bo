@@ -8,7 +8,7 @@ services:
     branch: master
     startCommand: yarn start
     healthCheckPath: /_health
-    autoDeploy: false
+    autoDeploy: true
     disk:
       name: strapi-uploads
       mountPath: /opt/render/project/src/public/uploads
