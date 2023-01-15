@@ -48,14 +48,33 @@
     "history": {
       "type": "richtext"
     },
-    "difficulty": {
-      "type": "string"
-    },
     "type": {
-      "type": "string"
+      "type": "enumeration",
+      "enum": [
+        "LADAINHA",
+        "CORRIDO",
+        "MACULELE",
+        "SAMBA_DE_RODA",
+        "TOQUES",
+        "QUADRA",
+        "LOUVACAO",
+        "CHULAS",
+        "SAMBA",
+        "OTHERS"
+      ],
+      "default": "CORRIDO"
     },
-    "liked": {
-      "type": "boolean"
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "MESTRES",
+        "SLAVERY",
+        "ABOUT_CAPOEIRA",
+        "START_OF_RODA",
+        "END_OF_RODA",
+        "LEGENDARY_CHARACTERS",
+        "OTHER"
+      ]
     }
   }
 }
