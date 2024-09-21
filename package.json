@@ -4,19 +4,24 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "develop": "strapi develop",
+    "dev": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.5.5",
-    "@strapi/plugin-users-permissions": "4.5.5",
-    "@strapi/provider-upload-aws-s3": "^4.5.6",
-    "@strapi/strapi": "4.5.6",
-    "better-sqlite3": "7.4.6",
-    "pg": "^8.8.0",
-    "strapi-plugin-import-export-entries": "^1.18.0"
+    "@strapi/plugin-i18n": "4.15.5",
+    "@strapi/plugin-users-permissions": "4.15.5",
+    "@strapi/provider-upload-aws-s3": "^4.25.11",
+    "@strapi/strapi": "4.15.5",
+    "better-sqlite3": "^11.3.0",
+    "pg": "^8.12.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "strapi-plugin-import-export-entries": "^1.23.1",
+    "styled-components": "5.3.3",
+    "web-push": "^3.6.7"
   },
   "author": {
     "name": "A Strapi developer"
@@ -28,5 +33,9 @@
     "node": ">=14.19.1 <=18.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/koa": "^2.15.0",
+    "@types/web-push": "^3.6.3"
+  }
 }
