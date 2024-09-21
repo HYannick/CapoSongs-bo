@@ -101,7 +101,7 @@ node_modules
 
 testApp
 coverage
-
+reference_data.ts
 ############################
 # Strapi
 ############################

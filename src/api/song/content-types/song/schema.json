@@ -60,6 +60,7 @@
         "LOUVACAO",
         "CHULAS",
         "SAMBA",
+        "CLASSICAL",
         "OTHERS"
       ],
       "default": "CORRIDO"
@@ -74,6 +75,24 @@
         "END_OF_RODA",
         "LEGENDARY_CHARACTERS",
         "OTHER"
+      ]
+    },
+    "mestre": {
+      "type": "string"
+    },
+    "bateria": {
+      "type": "enumeration",
+      "enum": [
+        "ANGOLA",
+        "BANGUELA",
+        "REGIONAL",
+        "SAMANGO",
+        "MIUDINHO",
+        "SAMBA_DE_RODA",
+        "MACULELE",
+        "IUNA",
+        "PUXADA_DE_REDE",
+        "BARA_VENTO"
       ]
     }
   }
